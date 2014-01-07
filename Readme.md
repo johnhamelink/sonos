@@ -13,3 +13,21 @@ little socket server which allows me to integrate sonos into my desktop environm
 Currently only play, pause and now_playing are implemented, although it'd be
 trivial to add more functionality that's exposed to us via [soffes' Sonos
 gem](https://github.com/soffes/sonos).
+
+Instructions
+------------
+
+
+Install the dependencies with `bundler`:
+
+    bundle install
+
+Run the server in the background:
+
+    ./sonos_server &
+
+Run the client:
+
+    ./sonos now_playing
+
+
