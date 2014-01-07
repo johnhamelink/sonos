@@ -2,7 +2,7 @@
 require 'socket'
 
 sock_file = "/tmp/sonos.sock"
-socket = UNIXSocket.new(sock_file) 
+socket = UNIXSocket.new(sock_file)
 
 case ARGV[0]
 when "play"
