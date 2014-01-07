@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require './player'
+require_relative './player'
 require 'socket'
 
 player = Player.new
