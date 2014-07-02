@@ -35,7 +35,7 @@ class Player
     now_playing = speaker.now_playing
 
     if now_playing[:album] == "" && now_playing[:artist] == ""
-      out = "Radio: #{now_playing[:info]}"
+      out = "#{now_playing[:info]}"
     else
       out = "#{now_playing[:artist]} - #{now_playing[:album]} - #{now_playing[:title]}"
     end
